@@ -1,0 +1,115 @@
+
+
+.container {
+    margin-top: 9rem; 
+    background: linear-gradient(to bottom, #9fddfa, #9bf4c3); 
+    padding: 0.8rem; 
+    border-radius: 12px; 
+    max-width: 100px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem; 
+    border-radius: 12px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+}
+
+.typography {
+    color: #007bff;
+    margin-bottom: 1.5rem; /* Reduced margin */
+}
+
+.text-field {
+    margin-bottom: 1rem; /* Reduced margin */
+}
+
+.text-field label {
+    color: #333;
+    font-weight: 500;
+}
+
+.text-field input {
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px 15px; /* Reduced padding */
+}
+
+.text-field input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.2);
+    outline: none;
+}
+
+.select-field {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+.select-field .MuiOutlinedInput-root {
+    border-radius: 8px;
+}
+
+.select-field .MuiSelect-select {
+    padding: 10px 15px; 
+}
+
+.button {
+    font-size: 14px; 
+    padding: 10px 20px; 
+    border-radius: 8px;
+    text-transform: none;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grid-item {
+    padding: 1rem;
+}
+
+.grid-item:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.grid-item:nth-of-type(even) {
+    background-color: #e9ecef;
+}
+
+.grid-item .MuiTextField-root {
+    margin-bottom: 1rem; /* Reduced margin */
+}
+
+.container .header {
+    margin-bottom: 1.5rem; /* Reduced margin */
+}
+
+.container .header h1 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .container {
+        margin-top: 2rem; /* Adjusted for smaller screens */
+        padding: 1rem;
+    }
+
+    .box {
+        padding: 1rem;
+    }
+
+    .button {
+        font-size: 10px; /* Smaller font size for buttons on small screens */
+        padding: 8px 16px; /* Reduced padding */
+    }
+}

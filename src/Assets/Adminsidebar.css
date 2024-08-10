@@ -1,0 +1,30 @@
+/* 
+.dashboard-container-d {
+    width: 200px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #7cfac8, #80fffd);
+    height: 100vh;
+    position: relative;
+     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+   
+  }
+  .nav-list-item-d {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+.nav-list-item-d a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+ .dashboard-container-d a:hover {
+    color: #038e1d;
+  }
+   */

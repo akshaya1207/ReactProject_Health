@@ -1,0 +1,87 @@
+/* Update your Admin.css */
+.profile-menu {
+  position: relative;
+}
+
+.profile-menu .MuiIconButton-root {
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.content-s {
+  padding: 20px;
+}
+
+.welcome-message-s {
+  margin-top: 20px;
+  background-image: url('C:\Users\aksha\OneDrive\Desktop\ReactProject1\app\src\images\box.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+.right-panel-s {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-s {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+.card-s:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon-s {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card-s h2 {
+  margin: 10px 0;
+}
+
+.card-s button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card-s button:hover {
+  background-color: #0056b3;
+}

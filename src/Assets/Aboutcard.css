@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styles */
+.containera {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Header Styles */
+.typographya-h1 {
+  font-weight: 700;
+  color: #003d33;
+}
+
+.typographya-body {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+/* Button Styles */
+.buttona-hover {
+  background-color: #00796b;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buttona-hover:hover {
+  background-color: #004d40;
+  transform: scale(1.05);
+}
+
+/* Image Styles */
+.imga-hover {
+  border: 5px solid #00796b;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imga-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Service Cards */
+.servicea-card-hover {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.servicea-card-hover:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.typographya-service-title {
+  color: #00796b;
+  font-weight: 700;
+}
+
+.typographya-service-description {
+  color: #555;
+}
+
+/* Guide Cards */
+.guidea-card-hover {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.guidea-card-hover:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+
+.CardContenta {
+  padding: 20px;
+}
+
+.CardContenta a {
+  color: #00796b;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.CardContenta a:hover {
+  text-decoration: underline;
+}
+
+.CardMediaa {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Typography Styles */
+.typographya-h2 {
+  font-weight: 700;
+  color: #003d33;
+  margin-bottom: 20px;
+}

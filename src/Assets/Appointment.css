@@ -1,0 +1,84 @@
+.appointment-container-b {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 250px;
+  position: relative;
+  
+}
+
+.dashdddd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px; /* Adjust width as needed */
+  height: 150vh;
+  padding: 20px;
+  background: linear-gradient(to bottom, #95f9ca, #84fdfb);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.react-datepicker-b {
+  border: none;
+  box-shadow: none;
+  margin-left: 50px;
+ 
+
+}
+
+.custom-calendar-b .react-datepicker__month-container {
+  background: none;
+  border: none;
+  box-shadow: none;
+  width: 300px;
+
+}
+
+/* Optional: style the days and other calendar elements as needed */
+.custom-calendar-b .react-datepicker__day,
+.custom-calendar-b .react-datepicker__header {
+  background: none;
+  border: none;
+}
+
+.time-slots-container-b {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.slot-container-b {
+  border: 2px solid #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column; /* Align contents in a column */
+  align-items: center; /* Center content horizontally */
+  justify-content: space-between; /* Space between elements */
+}
+
+/* Gradient Button Style */
+.gradient-button-b {
+  background: linear-gradient(to right, #7bf9be, #87fbf7);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.gradient-button-b:hover {
+  background: linear-gradient(to right, #90faf3, #9af799);
+}
+
+.buttonapp
+{
+  background-color: green;
+}

@@ -1,0 +1,59 @@
+/* Container for the Contact Us page */
+.contactc-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+
+
+/* Styling for the Paper component */
+.paperc {
+  border-radius: 12px;
+  background: linear-gradient(135deg, #e0f7fa 0%, #80deea 100%);
+  padding: 24px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+ 
+
+  margin-top: 80px;
+  width:500px;
+  margin-top:30px;
+  margin-left:100px;
+}
+
+/* Typography for the page heading */
+.headingc {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00796b;
+  margin-bottom: 16px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Typography for the page description */
+.descriptionc {
+  font-size: 1rem;
+  color: #004d40;
+  margin-bottom: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.MuiTextFieldc-root {
+  border-radius: 8px;
+ 
+}
+
+.MuiInputBasec-root {
+  border-radius: 8px;
+}
+
+
+.MuiGridc-container {
+  margin-top: 30px;
+}

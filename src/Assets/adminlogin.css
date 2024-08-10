@@ -1,0 +1,137 @@
+@keyframes slideIn {
+    0% {
+      right: -100%;
+    }
+    100% {
+      right: 48%;
+    }
+  }
+  
+  .bg1 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 0 50% 80% 0;
+    box-shadow: 0 30px 30px rgba(15, 0, 0, 0.1);
+  }
+  
+  .login-container {
+    max-width: 350px; 
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: -70px;
+    transform: translateX(-40%);
+    margin-top: -100px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 1em;
+  }
+  
+  .input-group label {
+    margin-bottom: .5em;
+    color: #333333;
+    display: block;
+  }
+  
+  .input-group input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 80%;
+    padding: .5em;
+  }
+  
+  button {
+    padding: 0.7em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8em;
+  }
+  
+  .bg1::before {
+    content: "";
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #795cf9, #7355F7);
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+    transition: 1.8s ease-in-out;
+    animation: slideIn 1.8s ease-in-out forwards;
+  }
+  
+  .login-header {
+    text-align: center;
+  }
+  
+  .login-header h3 {
+    color: #795cf9;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup-link label {
+    font-size: 17px;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .signup-link button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-link button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-link {
+    color: #795cf9; 
+    text-decoration: none; 
+    font-size: medium;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline; 
+  }
+  

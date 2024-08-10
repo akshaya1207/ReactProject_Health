@@ -1,0 +1,89 @@
+/* Navbar Container */
+nav {
+  background: #13ac9b;
+  padding: 1rem;
+  height: 45px;
+}
+
+/* Navbar List */
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar List Items */
+li {
+  margin: 0 1rem;
+  position: relative; /* Required for positioning the dropdown */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+/* Navbar Links */
+a {
+  color: #f7fafa;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center; 
+}
+
+a:hover {
+  color: #ccc;
+}
+
+/* Navbar List Item Icons */
+li svg {
+  margin-right: 0.5rem; /* Space between icon and text */
+}
+
+/* Reduce font size for login/signup */
+.login-signup a {
+  font-size: 1rem;
+}
+
+/* Dropdown Styling */
+.dropdown {
+  position: absolute;
+  top: 100%; /* Position the dropdown below the list item */
+  left: 0;
+  display: none;
+  flex-direction: column;
+  
+  color: #080808; /* White text color */
+  border: 1px solid #ccc; /* Optional: border for the dropdown */
+  padding: 0.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional: shadow for the dropdown */
+}
+
+.dropdown a {
+  color: #121212; /* White text color */
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+  background: #333; /* Optional: darker background on hover */
+}
+
+/* Show dropdown on hover */
+li:hover .dropdown {
+  display: flex;
+}
+
+.profile-menu {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+.color
+{
+  color:white
+}

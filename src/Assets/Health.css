@@ -1,0 +1,103 @@
+/* Container */
+.health-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.health-container:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+.health-container h2 {
+  color: #3f51b5;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2em;
+}
+
+.health-container h3 {
+  color: #3f51b5;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.health-container h4 {
+  color: #333;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 1.25em;
+}
+
+/* Paragraphs */
+.health-container p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+/* Lists */
+.health-container ul {
+  padding-left: 20px;
+}
+
+.health-container li {
+  margin-left: 20px;
+  list-style-type: disc;
+  color: #555;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .health-container {
+      margin: 20px;
+      padding: 15px;
+  }
+
+  .health-container h2 {
+      font-size: 1.75em;
+  }
+
+  .health-container h3 {
+      font-size: 1.25em;
+  }
+
+  .health-container h4 {
+      font-size: 1.1em;
+  }
+
+  .health-container p,
+  .health-container li {
+      font-size: 1em;
+  }
+}
+p{
+  color: black;
+  font-size: 17px;
+  margin-right: 80px;
+  margin-left:80px;
+}
+h2{
+  margin-left: 30px;
+  font-size: large;
+  color: rgb(117, 41, 117);
+}
+h4{
+  margin-left: 30px;
+  font-size: large;
+  color: rgb(122, 35, 122);
+}
+h3{
+  margin-left: 30px;
+  font-size: large;
+  color: rgb(147, 47, 147);
+}

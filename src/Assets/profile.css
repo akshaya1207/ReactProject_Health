@@ -1,0 +1,86 @@
+.profilew-container {
+  padding: 20px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.profilew-paper {
+  padding: 20px;
+  margin-bottom: 20px; /* Space between sections */
+}
+
+.profilew-avatar {
+  width: 200px; /* Increased width */
+  height: 200px; /* Increased height */
+}
+
+.profilew-header {
+  font-weight: bold;
+color: #38a485;
+  
+}
+
+.profilew-description {
+  margin-top: 10px;
+  color: black;
+}
+
+.profilew-section {
+  padding: 20px;
+}
+
+.profilew-section-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:#38a485
+}
+
+.profilew-section-separator {
+  border-top: 1px solid #ddd;
+  margin: 20px 0; /* Space between sections */
+}
+
+.profilew-list-item {
+  display: flex;
+  align-items: center;
+ color: black;
+}
+
+.profilew-list-item-icon {
+  min-width: 40px;
+}
+
+.profilew-review-item {
+  margin-bottom: 10px;
+}
+
+.profilew-review-name {
+  font-weight: bold;
+}
+
+.profilew-review-comment {
+  display: block;
+  margin-top: 5px;
+}
+
+.profilew-buttons-container {
+  display: flex;
+  gap: 30px; /* Space between buttons */
+  margin-top: 20px;
+  height: 40px;
+}
+
+.profilew-review-button {
+  font-size: 1rem; /* Adjust font size */
+  padding: 10px 20px; /* Adjust padding */
+  background-color: #3fb59a; /* Custom color */
+ 
+}
+
+.profilew-book-button {
+  font-size: 1rem; /* Adjust font size */
+  padding: 10px 20px; /* Adjust padding */
+  background-color: #38a485; /* Custom color */
+  height:40px;
+}
